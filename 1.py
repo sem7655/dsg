@@ -8,7 +8,7 @@ class StringVar:
     def get(self):
         return self.string
 
-        string_var = StringVar ('World!')
-        print (string_var.get ())
-        string_var.set ('Goodbye')
-        print (string_var.get ())
+string_var = StringVar ('World!')
+print (string_var.get ())
+string_var.set ('Goodbye')
+print (string_var.get ())
